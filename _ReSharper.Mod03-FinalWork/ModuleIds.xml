@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="0DA7D742-6DA6-4998-B64F-9D27EF142E0C" ModuleId="Mod03-ChelasMovies.RepImpl" />
+  <Module PersistentId="1C039CE6-EB9A-4748-BF01-B8B371443591" ModuleId="Mod03-ChelasMovies.Rep" />
+  <Module PersistentId="208B1EAA-EBE5-4202-891D-3D32A0DAE1E3" ModuleId="Mod03-ChelasMovies.DomainModel" />
+  <Module PersistentId="10D2759C-2468-4902-BEBF-2882F144B714" ModuleId="Mod03-ChelasMovies.WebApp" />
+  <Module PersistentId="D1F54503-1D69-47BD-90E1-4F5353E1BDF6" ModuleId="Mod03-ChelasMovies.DependencyResolution" />
+</Modules>
