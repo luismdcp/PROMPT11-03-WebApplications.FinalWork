@@ -1,0 +1,83 @@
+﻿@model Group
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Group</legend>
+
+    <div class="display-label">Name</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">Description</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Description)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+<fieldset>
+    <legend>Enrolled Users</legend>
+
+    @using (Html.BeginForm())
+    {
+        <table>
+            <tr>
+                <th>&nbsp;</th>
+                <th>User</th>
+            </tr>
+
+            @foreach (var item in Model.EnrolledUsers)
+            {
+                <tr>
+                    <td>
+                        <input type="checkbox" name="deleteEnrolledUsers" value="@item.UserName" />
+                    </td>
+                    <td>
+                        @item.UserName
+                    </td>
+                </tr>
+            }
+        </table>
+        <br />
+        <input name="AddUsersButton" type="submit" value="Add" />
+        <input name="DeleteUsersButton" type="submit" value="Delete" />
+    }
+</fieldset>
+<fieldset>
+    <legend>Shared Movies</legend>
+
+    @using (Html.BeginForm())
+    {
+        <table>
+            <tr>
+                <th>&nbsp;</th>
+                <th>Movie</th>
+            </tr>
+
+            @foreach (Movie item in Model.SharedMovies)
+            {
+        
+                <tr>
+                    <td>
+                        <input type="checkbox" name="deleteSharedMovies" value="@item.ID" />
+                    </td>
+                    <td>
+                        @item.Title
+                    </td>
+                </tr>
+        
+            }
+        </table>
+        <br />
+        <input name="AddMoviesButton" type="submit" value="Add" />
+        <input name="DeleteMoviesButton" type="submit" value="Delete" />
+    }
+</fieldset>

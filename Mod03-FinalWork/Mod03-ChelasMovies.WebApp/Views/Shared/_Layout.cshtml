@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>@ViewBag.Title</title>
+        <link href="@Url.Content("~/Content/Theme/style.css")" rel="stylesheet" type="text/css" />
+        <script src="@Url.Content("~/Scripts/jquery-1.6.2.min.js")" type="text/javascript"></script>
+        <script src="@Url.Content("~/Scripts/modernizr-1.7.min.js")" type="text/javascript"></script>
+        <script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+        <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="menu">
+		        <ul>
+			        <li>@Html.ActionLink("Movies", "Index", "Movies")</li>
+                    <li>@Html.ActionLink("Groups", "Index", "Groups")</li>
+                    <li>@Html.Partial("_LogOnPartial")</li>
+		        </ul>
+	        </div>
+            <div id="header">
+            </div>
+            <div id="page">
+	            <div id="page-bgtop">
+	                <div id="page-bgbtm">
+                        <div id="content">
+                            <div id="main">
+                                @RenderBody()
+                            </div>
+                        </div>
+	                </div>
+                 </div>
+            </div>
+        </div>
+    </body>
+</html>

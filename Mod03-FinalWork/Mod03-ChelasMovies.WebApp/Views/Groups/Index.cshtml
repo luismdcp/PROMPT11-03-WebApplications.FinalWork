@@ -1,0 +1,54 @@
+﻿@model GroupsIndexViewModel
+
+@{
+    ViewBag.Title = "Groups Management";
+}
+
+<h2>Groups Management</h2>
+
+<fieldset>
+    <legend>My Groups</legend>
+
+    <table>
+        <tr>
+            <th>&nbsp;</th>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+        @foreach (var item in Model.OwnedGroups) 
+        {
+            <tr>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                </td>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+            </tr>
+        }
+    </table>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+</fieldset>
+
+<fieldset>
+    <legend>Enrolled Groups</legend>
+
+    <table>
+        <tr>
+            <th>Owner</th>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+        @foreach (var item in Model.EnrolledGroups) 
+        {
+            <tr>
+                <td>@item.Owner.UserName</td>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+            </tr>
+        }
+    </table>
+</fieldset>

@@ -1,0 +1,23 @@
+﻿@model Comment
+
+@{
+    ViewBag.Title = "Create Comment";
+}
+
+<h2>Create Comment</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>Comment</legend>
+
+        @Html.Partial("_CreateOrEdit", Model)
+        
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>@Html.ActionLink("Back to List", "Details", "Movies", new { id = Model.MovieID }, null)</div>

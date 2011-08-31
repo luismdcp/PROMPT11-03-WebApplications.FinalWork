@@ -1,0 +1,37 @@
+﻿@model ICollection<Comment>
+
+@{
+    this.Layout = null;
+}
+    
+<fieldset>
+    <legend>Comments</legend>
+    <table>
+        <tr>
+            <th></th>
+            <th>
+                Description
+            </th>
+            <th>
+                Rating
+            </th>
+        </tr>
+
+@foreach (var item in Model)
+{
+        <tr>
+            <td>
+                @Html.ActionLink("Edit", "Edit", "Comments", new { Id = item.ID }, null) |
+                @Html.ActionLink("Details", "Details", "Comments", new { Id = item.ID }, null) |
+                @Html.ActionLink("Delete", "Delete", "Comments", new { Id = item.ID }, null)
+            </td>
+            <td>
+                @item.Description
+            </td>
+            <td>
+                @((Rating) item.Rating)
+            </td>
+        </tr>
+}
+    </table>
+</fieldset>

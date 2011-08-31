@@ -1,0 +1,703 @@
+<Configuration>
+  <UnitTestSessions>
+    <Session>
+      <Name>Session #2</Name>
+      <Elements>
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" type="NUnitTestFixtureElement" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" type="NUnitTestFixtureElement" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" type="NUnitTestFixtureElement" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" type="NUnitTestFixtureElement" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestFixtureElement" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.ActionWithDefaultControllerAndOverrideAction" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="ActionWithDefaultControllerAndOverrideAction" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.ActionWithOverrideControllerAndOverrideAction" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="ActionWithOverrideControllerAndOverrideAction" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.ActionWithOverrideControllerAndOverrideActionAndId" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="ActionWithOverrideControllerAndOverrideActionAndId" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest.ChangePassword_Get_ReturnsView" ParentId="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" MethodName="ChangePassword_Get_ReturnsView" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest.ChangePassword_Post_ReturnsRedirectOnSuccess" ParentId="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" MethodName="ChangePassword_Post_ReturnsRedirectOnSuccess" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest.ChangePassword_Post_ReturnsViewIfChangePasswordFails" ParentId="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" MethodName="ChangePassword_Post_ReturnsViewIfChangePasswordFails" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest.ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" ParentId="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" MethodName="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest.ChangePasswordSuccess_ReturnsView" ParentId="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" MethodName="ChangePasswordSuccess_ReturnsView" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest.LogOff_LogsOutAndRedirects" ParentId="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" MethodName="LogOff_LogsOutAndRedirects" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest.LogOn_Get_ReturnsView" ParentId="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" MethodName="LogOn_Get_ReturnsView" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest.LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" ParentId="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" MethodName="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest.LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" ParentId="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" MethodName="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest.LogOn_Post_ReturnsViewIfModelStateIsInvalid" ParentId="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" MethodName="LogOn_Post_ReturnsViewIfModelStateIsInvalid" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest.LogOn_Post_ReturnsViewIfValidateUserFails" ParentId="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" MethodName="LogOn_Post_ReturnsViewIfValidateUserFails" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest.Register_Get_ReturnsView" ParentId="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" MethodName="Register_Get_ReturnsView" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest.Register_Post_ReturnsRedirectOnSuccess" ParentId="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" MethodName="Register_Post_ReturnsRedirectOnSuccess" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest.Register_Post_ReturnsViewIfModelStateIsInvalid" ParentId="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" MethodName="Register_Post_ReturnsViewIfModelStateIsInvalid" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest.Register_Post_ReturnsViewIfRegistrationFails" ParentId="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.AccountControllerTest" MethodName="Register_Post_ReturnsViewIfRegistrationFails" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.RouteUrlWithDefaultControllerAndDefaultActiontValues" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="RouteUrlWithDefaultControllerAndDefaultActiontValues" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.RouteUrlWithNewValuesOverridesDefaultValues" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="RouteUrlWithNewValuesOverridesDefaultValues" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.RouteUrlWithPagingAndSortingValues" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="RouteUrlWithPagingAndSortingValues" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests.ShouldRenderAllCommentsForAnExistingMovie" ParentId="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" MethodName="ShouldRenderAllCommentsForAnExistingMovie" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests.ShouldRenderAllCreatedGroupsAndEnrolledGroupsForAnExistingUser" ParentId="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" MethodName="ShouldRenderAllCreatedGroupsAndEnrolledGroupsForAnExistingUser" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests.ShouldRenderAllExistingMoviesWithoutSearchAndPaging" ParentId="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" MethodName="ShouldRenderAllExistingMoviesWithoutSearchAndPaging" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests.ShouldRenderCreateViewByGETForANewComment" ParentId="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" MethodName="ShouldRenderCreateViewByGETForANewComment" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests.ShouldRenderCreateViewByGETForANewGroup" ParentId="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" MethodName="ShouldRenderCreateViewByGETForANewGroup" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests.ShouldRenderCreateViewByGETForANewMovie" ParentId="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" MethodName="ShouldRenderCreateViewByGETForANewMovie" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests.ShouldRenderCreateViewByPOSTForAnInvalidComment" ParentId="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" MethodName="ShouldRenderCreateViewByPOSTForAnInvalidComment" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests.ShouldRenderCreateViewByPOSTForAnInvalidGroup" ParentId="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" MethodName="ShouldRenderCreateViewByPOSTForAnInvalidGroup" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests.ShouldRenderCreateViewByPOSTForAnInvalidMovie" ParentId="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" MethodName="ShouldRenderCreateViewByPOSTForAnInvalidMovie" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests.ShouldRenderDeleteViewByGETForAExistingComment" ParentId="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" MethodName="ShouldRenderDeleteViewByGETForAExistingComment" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests.ShouldRenderDeleteViewByGETForAExistingGroup" ParentId="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" MethodName="ShouldRenderDeleteViewByGETForAExistingGroup" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests.ShouldRenderDeleteViewByGETForAExistingMovie" ParentId="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" MethodName="ShouldRenderDeleteViewByGETForAExistingMovie" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests.ShouldRenderDeleteViewByPOSTForAnExistingComment" ParentId="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" MethodName="ShouldRenderDeleteViewByPOSTForAnExistingComment" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests.ShouldRenderDeleteViewByPOSTForAnExistingGroup" ParentId="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" MethodName="ShouldRenderDeleteViewByPOSTForAnExistingGroup" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests.ShouldRenderDeleteViewByPOSTForAnExistingMovie" ParentId="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" MethodName="ShouldRenderDeleteViewByPOSTForAnExistingMovie" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests.ShouldRenderEditViewByGETForAExistingComment" ParentId="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" MethodName="ShouldRenderEditViewByGETForAExistingComment" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests.ShouldRenderEditViewByGETForAExistingGroup" ParentId="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" MethodName="ShouldRenderEditViewByGETForAExistingGroup" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests.ShouldRenderEditViewByGETForAExistingMovie" ParentId="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" MethodName="ShouldRenderEditViewByGETForAExistingMovie" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests.ShouldRenderEditViewByPOSTForANewUpdatedAndValidComment" ParentId="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" MethodName="ShouldRenderEditViewByPOSTForANewUpdatedAndValidComment" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests.ShouldRenderEditViewByPOSTForANewUpdatedAndValidGroup" ParentId="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" MethodName="ShouldRenderEditViewByPOSTForANewUpdatedAndValidGroup" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests.ShouldRenderEditViewByPOSTForANewUpdatedAndValidMovie" ParentId="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" MethodName="ShouldRenderEditViewByPOSTForANewUpdatedAndValidMovie" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests.ShouldRenderEditViewByPOSTForAnUpdatedAndInvalidComment" ParentId="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" MethodName="ShouldRenderEditViewByPOSTForAnUpdatedAndInvalidComment" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests.ShouldRenderEditViewByPOSTForAnUpdatedAndInvalidGroup" ParentId="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" MethodName="ShouldRenderEditViewByPOSTForAnUpdatedAndInvalidGroup" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests.ShouldRenderEditViewByPOSTForAnUpdatedAndInvalidMovie" ParentId="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" MethodName="ShouldRenderEditViewByPOSTForAnUpdatedAndInvalidMovie" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests.ShouldRenderEmptyCreatedGroupsAndEnrolledGroupsForAnExistingUserWithoutGroups" ParentId="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" MethodName="ShouldRenderEmptyCreatedGroupsAndEnrolledGroupsForAnExistingUserWithoutGroups" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests.ShouldRenderEmptyCreatedGroupsAndEnrolledGroupsForAnNonExistingUser" ParentId="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" MethodName="ShouldRenderEmptyCreatedGroupsAndEnrolledGroupsForAnNonExistingUser" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests.ShouldRenderMovieDetailsViewByPOSTForANewValidComment" ParentId="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" MethodName="ShouldRenderMovieDetailsViewByPOSTForANewValidComment" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests.ShouldRenderMovieDetailsViewByPOSTForANewValidGroup" ParentId="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" MethodName="ShouldRenderMovieDetailsViewByPOSTForANewValidGroup" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests.ShouldRenderMovieDetailsViewByPOSTForANewValidMovie" ParentId="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" MethodName="ShouldRenderMovieDetailsViewByPOSTForANewValidMovie" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests.ShouldRenderNoCommentsForAnExistingMovieThatHasNoComments" ParentId="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" MethodName="ShouldRenderNoCommentsForAnExistingMovieThatHasNoComments" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests.ShouldRenderNoCommentsForANonExistingMovie" ParentId="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" MethodName="ShouldRenderNoCommentsForANonExistingMovie" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests.ShouldRenderTheDetailsForAnExistingComment" ParentId="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" MethodName="ShouldRenderTheDetailsForAnExistingComment" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests.ShouldRenderTheDetailsForAnExistingGroup" ParentId="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" MethodName="ShouldRenderTheDetailsForAnExistingGroup" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests.ShouldRenderTheDetailsForAnExistingMovie" ParentId="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" MethodName="ShouldRenderTheDetailsForAnExistingMovie" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests.ShouldRenderTheNotFoundViewForANonExistingComment" ParentId="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" MethodName="ShouldRenderTheNotFoundViewForANonExistingComment" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests.ShouldRenderTheNotFoundViewForANonExistingMovie" ParentId="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" MethodName="ShouldRenderTheNotFoundViewForANonExistingMovie" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests.ShouldRenderTheNotFoundViewForDeletingANonExistingComment" ParentId="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.CommentsControllerTests" MethodName="ShouldRenderTheNotFoundViewForDeletingANonExistingComment" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests.ShouldRenderTheNotFoundViewForDeletingANonExistingGroup" ParentId="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests" MethodName="ShouldRenderTheNotFoundViewForDeletingANonExistingGroup" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests.ShouldRenderTheNotFoundViewForDeletingANonExistingMovie" ParentId="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests" MethodName="ShouldRenderTheNotFoundViewForDeletingANonExistingMovie" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashCommentsSlashCreateGoesToCommentsControllerCreateActionByDefaultRoute" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashCommentsSlashCreateGoesToCommentsControllerCreateActionByDefaultRoute" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashCommentsSlashDeleteSlashIdGoesToCommentsControllerDeleteActionByDefaultRoute" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashCommentsSlashDeleteSlashIdGoesToCommentsControllerDeleteActionByDefaultRoute" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashCommentsSlashEditSlashIdGoesToCommentsControllerEditActionByDefaultRoute" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashCommentsSlashEditSlashIdGoesToCommentsControllerEditActionByDefaultRoute" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashCommentsSlashIndexGoesToGroupsControllerIndexActionByDefaultRoute" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashCommentsSlashIndexGoesToGroupsControllerIndexActionByDefaultRoute" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashGoesToMoviesControllerIndexActionByDefaultRoute" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashGoesToMoviesControllerIndexActionByDefaultRoute" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashGroupsSlashCreateGoesToGroupsControllerCreateActionByDefaultRoute" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashGroupsSlashCreateGoesToGroupsControllerCreateActionByDefaultRoute" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashGroupsSlashDeletetGoesToGroupsControllerDeleteActionByDefaultRoute" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashGroupsSlashDeletetGoesToGroupsControllerDeleteActionByDefaultRoute" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashGroupsSlashDeletetGoesToGroupsControllerDeleteActionByDefaultRouteWithAPost" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashGroupsSlashDeletetGoesToGroupsControllerDeleteActionByDefaultRouteWithAPost" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashGroupsSlashDetailsSlashIdGoesToGroupsControllerDetailsActionByDefaultRoute" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashGroupsSlashDetailsSlashIdGoesToGroupsControllerDetailsActionByDefaultRoute" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashGroupsSlashEditGoesToGroupsControllerEditActionByDefaultRouteWithAPost" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashGroupsSlashEditGoesToGroupsControllerEditActionByDefaultRouteWithAPost" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashGroupsSlashEditGoesToGroupssControllerEditActionByDefaultRoute" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashGroupsSlashEditGoesToGroupssControllerEditActionByDefaultRoute" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashGroupsSlashIndexGoesToGroupsControllerIndexActionByDefaultRoute" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashGroupsSlashIndexGoesToGroupsControllerIndexActionByDefaultRoute" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashMoviesGoesToMoviesControllerIndexActionByDefaultRoute" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashMoviesGoesToMoviesControllerIndexActionByDefaultRoute" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashMoviesSlashCreateGoesToMoviesControllerCreateActionByDefaultRoute" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashMoviesSlashCreateGoesToMoviesControllerCreateActionByDefaultRoute" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashMoviesSlashDeletetGoesToMoviesControllerDeleteActionByDefaultRoute" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashMoviesSlashDeletetGoesToMoviesControllerDeleteActionByDefaultRoute" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashMoviesSlashDeletetGoesToMoviesControllerDeleteActionByDefaultRouteWithAPost" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashMoviesSlashDeletetGoesToMoviesControllerDeleteActionByDefaultRouteWithAPost" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashMoviesSlashDetailsSlashIdGoesToMoviesControllerDetailsActionByDefaultRoute" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashMoviesSlashDetailsSlashIdGoesToMoviesControllerDetailsActionByDefaultRoute" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashMoviesSlashEditGoesToMoviesControllerEditActionByDefaultRoute" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashMoviesSlashEditGoesToMoviesControllerEditActionByDefaultRoute" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashMoviesSlashEditGoesToMoviesControllerEditActionByDefaultRouteWithAPost" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashMoviesSlashEditGoesToMoviesControllerEditActionByDefaultRouteWithAPost" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashMoviesSlashIndexGoesToMoviesControllerIndexActionByDefaultRoute" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashMoviesSlashIndexGoesToMoviesControllerIndexActionByDefaultRoute" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+        <UnitTestElement Provider="nUnit" Id="Mod03_ChelasMovies.Tests.Controllers.UrlTests.SlashMoviesSlashPage1GoesToMoviesControllerIndexActionByDefaultRoute" ParentId="Mod03_ChelasMovies.Tests.Controllers.UrlTests" type="NUnitTestElement" TypeName="Mod03_ChelasMovies.Tests.Controllers.UrlTests" MethodName="SlashMoviesSlashPage1GoesToMoviesControllerIndexActionByDefaultRoute" Project="F4506274-334A-4B43-99BB-7B607C3532A4" />
+      </Elements>
+    </Session>
+  </UnitTestSessions>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/f:Global.asax.cs" caret="2030" fromTop="36" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Models/d:ViewModels/f:SearchViewModel.cs" caret="424" fromTop="4" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Models/d:ViewModels/f:SortPagingViewModel.cs" caret="257" fromTop="5" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Models/d:ViewModels/f:SearchSortPagingViewModel.cs" caret="589" fromTop="14" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Views/d:Movies/f:Index.cshtml" caret="2660" fromTop="96" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Helpers/f:HtmlHelperExtensions.cs" caret="679" fromTop="14" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Views/d:Movies/f:_Pager.cshtml" caret="829" fromTop="15" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Views/d:Movies/f:_SortingHeader.cshtml" caret="0" fromTop="0" />
+      <File id="0DA7D742-6DA6-4998-B64F-9D27EF142E0C/f:EFCommentsRepository.cs" caret="0" fromTop="0" />
+      <File id="0DA7D742-6DA6-4998-B64F-9D27EF142E0C/f:EFIMDBAPIMoviesRepository.cs" caret="0" fromTop="0" />
+      <File id="1C039CE6-EB9A-4748-BF01-B8B371443591/f:EFDbContextRepository.cs" caret="0" fromTop="0" />
+      <File id="208B1EAA-EBE5-4202-891D-3D32A0DAE1E3/d:ServicesImpl/f:RepositoryGroupsService.cs" caret="0" fromTop="0" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Controllers/f:MoviesController.cs" caret="1092" fromTop="16" />
+      <File id="208B1EAA-EBE5-4202-891D-3D32A0DAE1E3/d:ServicesImpl/f:InMemoryGroupsService.cs" caret="0" fromTop="0" />
+      <File id="208B1EAA-EBE5-4202-891D-3D32A0DAE1E3/d:ServicesImpl/f:InMemoryMoviesService.cs" caret="6053" fromTop="12" />
+      <File id="F4506274-334A-4B43-99BB-7B607C3532A4/d:Controllers/f:AccountControllerTest.cs" caret="14203" fromTop="58" />
+      <File id="F4506274-334A-4B43-99BB-7B607C3532A4/d:Controllers/f:CommentsControllerTests.cs" caret="22079" fromTop="21" />
+      <File id="F4506274-334A-4B43-99BB-7B607C3532A4/d:Controllers/f:GroupsControllerTests.cs" caret="1091" fromTop="9" />
+      <File id="F4506274-334A-4B43-99BB-7B607C3532A4/d:Controllers/f:MoviesControllerTests.cs" caret="1112" fromTop="9" />
+      <File id="F4506274-334A-4B43-99BB-7B607C3532A4/d:Controllers/f:UrlTests.cs" caret="10216" fromTop="11" />
+      <File id="208B1EAA-EBE5-4202-891D-3D32A0DAE1E3/d:Entities/f:Comment.cs" caret="181" fromTop="6" />
+      <File id="208B1EAA-EBE5-4202-891D-3D32A0DAE1E3/d:Entities/f:Movie.cs" caret="943" fromTop="10" />
+      <File id="208B1EAA-EBE5-4202-891D-3D32A0DAE1E3/d:Entities/f:Rating.cs" caret="0" fromTop="0" />
+      <File id="208B1EAA-EBE5-4202-891D-3D32A0DAE1E3/d:Entities/f:User.cs" caret="295" fromTop="7" />
+      <File id="208B1EAA-EBE5-4202-891D-3D32A0DAE1E3/d:Entities/f:Group.cs" caret="0" fromTop="0" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Content/d:Theme/f:index.html" caret="1281" fromTop="0" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Views/d:Shared/f:_LogOnPartial.cshtml" caret="210" fromTop="5" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Content/f:Site.css" caret="5664" fromTop="19" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Content/d:Theme/f:style.css" caret="5415" fromTop="29" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Views/d:Shared/f:_Layout.cshtml" caret="893" fromTop="16" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="F4506274-334A-4B43-99BB-7B607C3532A4/d:Controllers/f:GroupsControllerTests.cs" caret="768" fromTop="15" />
+      <File id="F4506274-334A-4B43-99BB-7B607C3532A4/d:Controllers/f:GroupsControllerTests.cs" caret="1091" fromTop="20" />
+      <File id="F4506274-334A-4B43-99BB-7B607C3532A4/d:Controllers/f:MoviesControllerTests.cs" caret="553" fromTop="7" />
+      <File id="F4506274-334A-4B43-99BB-7B607C3532A4/d:Controllers/f:MoviesControllerTests.cs" caret="768" fromTop="15" />
+      <File id="F4506274-334A-4B43-99BB-7B607C3532A4/d:Controllers/f:MoviesControllerTests.cs" caret="1112" fromTop="20" />
+      <File id="208B1EAA-EBE5-4202-891D-3D32A0DAE1E3/d:Entities/f:Comment.cs" caret="526" fromTop="20" />
+      <File id="208B1EAA-EBE5-4202-891D-3D32A0DAE1E3/d:Entities/f:Group.cs" caret="1157" fromTop="26" />
+      <File id="208B1EAA-EBE5-4202-891D-3D32A0DAE1E3/d:Entities/f:Movie.cs" caret="1843" fromTop="36" />
+      <File id="208B1EAA-EBE5-4202-891D-3D32A0DAE1E3/d:Entities/f:User.cs" caret="530" fromTop="17" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Views/d:Shared/f:_Layout.cshtml" caret="1347" fromTop="39" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Views/d:Shared/f:_Layout.cshtml" caret="1347" fromTop="23" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Views/d:Shared/f:_Layout.cshtml" caret="1347" fromTop="26" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Views/d:Shared/f:_Layout.cshtml" caret="1347" fromTop="27" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Views/d:Shared/f:_Layout.cshtml" caret="1347" fromTop="19" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Views/d:Shared/f:_Layout.cshtml" caret="126" fromTop="4" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Content/d:Theme/f:style.css" caret="5309" fromTop="11" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Views/d:Shared/f:_Layout.cshtml" caret="1347" fromTop="16" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Views/d:Shared/f:_Layout.cshtml" caret="1347" fromTop="27" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Views/d:Shared/f:_Layout.cshtml" caret="1347" fromTop="33" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Views/d:Shared/f:_Layout.cshtml" caret="898" fromTop="16" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Views/d:Shared/f:_Layout.cshtml" caret="1378" fromTop="37" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Views/d:Shared/f:_Layout.cshtml" caret="1229" fromTop="29" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Content/d:Theme/f:style.css" caret="2060" fromTop="15" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Content/d:Theme/f:style.css" caret="2810" fromTop="50" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Content/d:Theme/f:style.css" caret="2977" fromTop="50" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Content/d:Theme/f:style.css" caret="670" fromTop="16" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Views/d:Shared/f:_Layout.cshtml" caret="968" fromTop="19" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Views/d:Shared/f:_LogOnPartial.cshtml" caret="91" fromTop="1" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Content/d:Theme/f:style.css" caret="5378" fromTop="27" />
+      <File id="10D2759C-2468-4902-BEBF-2882F144B714/d:Content/d:Theme/f:style.css" caret="5415" fromTop="29" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="Equals`0" priority="26" />
+      <Item value="ToString`0" priority="80" />
+      <Item value="Title" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="void" priority="95" />
+      <Item value="ChildActionOnly" priority="63" />
+      <Item value="MvcContrib" priority="62" />
+      <Item value="TestHelper" priority="26" />
+      <Item value="Fakes" priority="26" />
+      <Item value="MockFactories" priority="26" />
+      <Item value="Ui" priority="26" />
+      <Item value="WebTestUtility`0" priority="26" />
+      <Item value="Route`0" priority="31" />
+      <Item value="using" priority="185" />
+      <Item value="Routing" priority="26" />
+      <Item value="RouteTestingExtensions`0" priority="31" />
+      <Item value="HttpVerbs`0" priority="95" />
+      <Item value="routeData" priority="127" />
+      <Item value="var" priority="575" />
+      <Item value="MoviesController`0" priority="30" />
+      <Item value="m" priority="127" />
+      <Item value="public" priority="191" />
+      <Item value="string" priority="755" />
+      <Item value="_HttpMethod" priority="32" />
+      <Item value="httpVerb" priority="64" />
+      <Item value="object" priority="92" />
+      <Item value="override" priority="31" />
+      <Item value="User`0" priority="350" />
+      <Item value="g" priority="255" />
+      <Item value="Guid`0" priority="63" />
+      <Item value="modelBuilder" priority="31" />
+      <Item value="ID" priority="64" />
+      <Item value="return" priority="1055" />
+      <Item value="this" priority="1470" />
+      <Item value="_comments" priority="351" />
+      <Item value="Movies" priority="63" />
+      <Item value="c" priority="95" />
+      <Item value="movieId" priority="223" />
+      <Item value="id" priority="447" />
+      <Item value="newComment" priority="255" />
+      <Item value="Comment`0" priority="254" />
+      <Item value="commentToDelete" priority="63" />
+      <Item value="CommentsController`0" priority="31" />
+      <Item value="private" priority="31" />
+      <Item value="ICommentsService`0" priority="31" />
+      <Item value="_inMemoryCommentsService" priority="255" />
+      <Item value="new" priority="767" />
+      <Item value="InMemoryCommentsService" priority="28" />
+      <Item value="_controller" priority="223" />
+      <Item value="CommentsController" priority="28" />
+      <Item value="_inMemoryMoviesService" priority="223" />
+      <Item value="int" priority="384" />
+      <Item value="ViewResult`0" priority="31" />
+      <Item value="actual" priority="31" />
+      <Item value="Assert`0" priority="159" />
+      <Item value="ICollection" priority="288" />
+      <Item value="model" priority="349" />
+      <Item value="List`0" priority="31" />
+      <Item value="List" priority="32" />
+      <Item value="Rating`0" priority="359" />
+      <Item value="viewResult" priority="63" />
+      <Item value="Comment" priority="28" />
+      <Item value="RedirectToRouteResult`0" priority="31" />
+      <Item value="Get`0" priority="31" />
+      <Item value="Movie`0" priority="223" />
+      <Item value="_movies" priority="95" />
+      <Item value="movieToDelete" priority="31" />
+      <Item value="null" priority="223" />
+      <Item value="TearDown" priority="31" />
+      <Item value="Movie" priority="32" />
+      <Item value="movie" priority="32" />
+      <Item value="commentId" priority="95" />
+      <Item value="context" priority="31" />
+      <Item value="RouteData`0" priority="31" />
+      <Item value="RouteData" priority="57" />
+      <Item value="MovieID" priority="31" />
+      <Item value="ViewEngines`0" priority="63" />
+      <Item value="RazorViewEngine" priority="28" />
+      <Item value="SetUpFixture" priority="31" />
+      <Item value="const" priority="63" />
+      <Item value="true" priority="31" />
+      <Item value="comment" priority="64" />
+      <Item value="System" priority="185" />
+      <Item value="Linq" priority="161" />
+      <Item value="Year" priority="32" />
+      <Item value="SearchViewModel`0" priority="31" />
+      <Item value="SearchViewModel" priority="57" />
+      <Item value="searchModel" priority="31" />
+      <Item value="SortPagingViewModel`0" priority="31" />
+      <Item value="SortPagingViewModel" priority="28" />
+      <Item value="sortPagingModel" priority="127" />
+      <Item value="service" priority="31" />
+      <Item value="Group`0" priority="382" />
+      <Item value="userName" priority="575" />
+      <Item value="u" priority="255" />
+      <Item value="_dbSet" priority="31" />
+      <Item value="_dbContext" priority="31" />
+      <Item value="entity" priority="31" />
+      <Item value="Modified" priority="16" />
+      <Item value="EFDbContextRepository" priority="31" />
+      <Item value="newGroup" priority="127" />
+      <Item value="IGroupsService`0" priority="95" />
+      <Item value="RepositoryGroupsService`0" priority="31" />
+      <Item value="IGroupsRepository`0" priority="31" />
+      <Item value="EFGroupsRepository`0" priority="31" />
+      <Item value="prop" priority="95" />
+      <Item value="IEnumerable" priority="127" />
+      <Item value="ctor" priority="63" />
+      <Item value="ownedGroups" priority="63" />
+      <Item value="enrolledGroups" priority="63" />
+      <Item value="User" priority="127" />
+      <Item value="viewModel" priority="64" />
+      <Item value="GroupsIndexViewModel" priority="28" />
+      <Item value="View`0" priority="63" />
+      <Item value="user" priority="63" />
+      <Item value="ForeignKey" priority="31" />
+      <Item value="GroupsController`0" priority="31" />
+      <Item value="Group" priority="86" />
+      <Item value="group" priority="286" />
+      <Item value="RedirectToAction`0" priority="63" />
+      <Item value="groupId" priority="31" />
+      <Item value="groupdId" priority="31" />
+      <Item value="item" priority="61" />
+      <Item value="table" priority="29" />
+      <Item value="UsersDetailsViewModel`0" priority="63" />
+      <Item value="usersDetails" priority="96" />
+      <Item value="MoviesDetailsViewModel`0" priority="63" />
+      <Item value="moviesDetails" priority="32" />
+      <Item value="if" priority="189" />
+      <Item value="else" priority="31" />
+      <Item value="ViewBag" priority="95" />
+      <Item value="FormMethod`0" priority="31" />
+      <Item value="Model" priority="95" />
+      <Item value="HttpPost" priority="31" />
+      <Item value="ActionResult`0" priority="31" />
+      <Item value="Update`0" priority="31" />
+      <Item value="allUsers" priority="31" />
+      <Item value="e" priority="31" />
+      <Item value="false" priority="31" />
+      <Item value="MultiSelectList`0" priority="63" />
+      <Item value="List&lt;User&gt;" priority="86" />
+      <Item value="foreach" priority="159" />
+      <Item value="userBuffer" priority="95" />
+      <Item value="newMovie" priority="63" />
+      <Item value="owner" priority="63" />
+      <Item value="_groups" priority="287" />
+      <Item value="List&lt;Group&gt;" priority="28" />
+      <Item value="Description" priority="31" />
+      <Item value="Name" priority="64" />
+      <Item value="_users" priority="191" />
+      <Item value="UserId" priority="31" />
+      <Item value="UserName" priority="32" />
+      <Item value="groupToDelete" priority="31" />
+      <Item value="userObject" priority="31" />
+      <Item value="Html" priority="89" />
+      <Item value="currentUser" priority="63" />
+      <Item value="IMoviesService`0" priority="31" />
+      <Item value="moviesService" priority="32" />
+      <Item value="addMovie" priority="31" />
+      <Item value="IQueryable" priority="31" />
+      <Item value="createdMovies" priority="31" />
+      <Item value="sharedMovies" priority="63" />
+      <Item value="gr" priority="31" />
+      <Item value="filterCriteria" priority="31" />
+      <Item value="pageIndex" priority="63" />
+      <Item value="pageSize" priority="95" />
+      <Item value="sortingCriteria" priority="31" />
+      <Item value="InMemoryGroupsService" priority="58" />
+      <Item value="_inMemoryGroupsService" priority="31" />
+      <Item value="ActionLink`0" priority="3" />
+      <Item value="usersDetailsViewModel" priority="96" />
+      <Item value="UsersDetailsViewModel" priority="28" />
+      <Item value="moviesDetailsViewModel" priority="64" />
+      <Item value="MoviesDetailsViewModel" priority="28" />
+      <Item value="fakeUser" priority="127" />
+      <Item value="#define" priority="31" />
+      <Item value="propertyInfos" priority="32" />
+      <Item value="BindingFlags`0" priority="63" />
+      <Item value="propertyInfo" priority="94" />
+      <Item value="typeof" priority="30" />
+      <Item value="continue" priority="31" />
+      <Item value="propertyValue" priority="94" />
+      <Item value="newModel" priority="31" />
+      <Item value="SearchViewModelBinder`0" priority="31" />
+      <Item value="as" priority="31" />
+      <Item value="IFilterProvider`0" priority="31" />
+      <Item value="sortColumn" priority="31" />
+      <Item value="searchProperty" priority="63" />
+      <Item value="#region" priority="63" />
+      <Item value="Display" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Routing.RouteData">
+      <Item value="Route" priority="53" />
+      <Item value="ShouldMapTo`1" priority="53" />
+      <Item value="Values" priority="107" />
+      <Item value="ShouldBe`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.WebApp.Controllers.MoviesController">
+      <Item value="Create`0" priority="80" />
+      <Item value="Details`0" priority="26" />
+      <Item value="Edit`0" priority="26" />
+      <Item value="DeletePost`0" priority="26" />
+      <Item value="Index`0" priority="26" />
+      <Item value="_groupsService" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MvcContrib.TestHelper.RouteTestingExtensions">
+      <Item value="WithMethod`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="WithMethod`0" priority="80" />
+      <Item value="PadLeft`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.HttpVerbs">
+      <Item value="Post" priority="135" />
+      <Item value="Get" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1">
+      <Item value="HasRequired`1" priority="54" />
+      <Item value="ToTable`0" priority="26" />
+      <Item value="HasOptional`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.DomainModel.Group">
+      <Item value="Owner" priority="134" />
+      <Item value="OwnerId" priority="26" />
+      <Item value="GroupUsers" priority="26" />
+      <Item value="ID" priority="161" />
+      <Item value="Name" priority="108" />
+      <Item value="Description" priority="108" />
+      <Item value="EnrolledUsers" priority="188" />
+      <Item value="SharedMovies" priority="161" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.ModelConfiguration.Configuration.RequiredNavigationPropertyConfiguration`2">
+      <Item value="WithMany`0" priority="26" />
+      <Item value="WithRequiredDependent`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.ModelConfiguration.Configuration.DependentNavigationPropertyConfiguration`1">
+      <Item value="HasForeignKey`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.DbModelBuilder">
+      <Item value="Entity`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Where`1" priority="269" />
+      <Item value="FirstOrDefault`1" priority="53" />
+      <Item value="Add`0" priority="110" />
+      <Item value="Remove`0" priority="107" />
+      <Item value="Clear`0" priority="110" />
+      <Item value="Max`1" priority="26" />
+      <Item value="Union`1" priority="26" />
+      <Item value="ForEach`0" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.DomainModel.Comment">
+      <Item value="MovieID" priority="216" />
+      <Item value="ID" priority="269" />
+      <Item value="Rating" priority="136" />
+      <Item value="Description" priority="138" />
+      <Item value="Movie" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="AsEnumerable`1" priority="26" />
+      <Item value="ToList`1" priority="107" />
+      <Item value="FirstOrDefault`1" priority="107" />
+      <Item value="AsQueryable`1" priority="53" />
+      <Item value="Union`1" priority="53" />
+      <Item value="GetHashCode`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.DomainModel.ServicesImpl.InMemoryCommentsService">
+      <Item value="Get`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.WebApp.Controllers.CommentsController">
+      <Item value="Index`0" priority="26" />
+      <Item value="Details`0" priority="26" />
+      <Item value="Create`0" priority="27" />
+      <Item value="_commentsService" priority="53" />
+      <Item value="Edit`0" priority="26" />
+      <Item value="EditPost`0" priority="26" />
+      <Item value="ControllerContext" priority="26" />
+      <Item value="Delete`0" priority="108" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="IsInstanceOf`1" priority="53" />
+      <Item value="IsTrue`0" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.ICollection`1">
+      <Item value="Contains`0" priority="26" />
+      <Item value="Count" priority="188" />
+      <Item value="Any`1" priority="107" />
+      <Item value="ToList`1" priority="80" />
+      <Item value="Add`0" priority="108" />
+      <Item value="Where`1" priority="26" />
+      <Item value="Remove`0" priority="26" />
+      <Item value="AsQueryable`1" priority="26" />
+      <Item value="AsEnumerable`1" priority="26" />
+      <Item value="SequenceEqual`1" priority="27" />
+      <Item value="ToPagedList`1" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.DomainModel.Movie">
+      <Item value="ID" priority="243" />
+      <Item value="Director" priority="53" />
+      <Item value="Actors" priority="26" />
+      <Item value="Genre" priority="26" />
+      <Item value="Image" priority="26" />
+      <Item value="Runtime" priority="26" />
+      <Item value="Title" priority="53" />
+      <Item value="Year" priority="53" />
+      <Item value="Owner" priority="80" />
+      <Item value="OwnerId" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mod03_ChelasMovies.DomainModel.Rating">
+      <Item value="Good" priority="165" />
+      <Item value="Incredible" priority="83" />
+      <Item value="Reasonable" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.WebApp.Models.ViewModels.NotFoundViewModel">
+      <Item value="Id" priority="53" />
+      <Item value="Entity" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.DomainModel.ServicesImpl.InMemoryMoviesService">
+      <Item value="Get`0" priority="26" />
+      <Item value="GetMoviesCreatedByUser`0" priority="26" />
+      <Item value="GetAll`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.RedirectToRouteResult">
+      <Item value="RouteName" priority="26" />
+      <Item value="RouteValues" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.DomainModel.Services.ICommentsService">
+      <Item value="Add`0" priority="26" />
+      <Item value="Get`0" priority="80" />
+      <Item value="GetAllComments`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ModelStateDictionary">
+      <Item value="AddModelError`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.DomainModel.Services.IMoviesService">
+      <Item value="Get`0" priority="53" />
+      <Item value="GetAll`0" priority="80" />
+      <Item value="GetMoviesOwnedByUser`0" priority="26" />
+      <Item value="GetAllReachable`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.ViewEngines">
+      <Item value="Engines" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ViewEngineCollection">
+      <Item value="Clear`0" priority="26" />
+      <Item value="Add`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="107" />
+      <Item value="Empty" priority="53" />
+      <Item value="IsNullOrEmpty`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.DomainModel.ServicesImpl.RepositoryMoviesService">
+      <Item value="_moviesRepository" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.DomainModel.ServicesRepositoryInterfaces.IMoviesRepository">
+      <Item value="GetAll`0" priority="26" />
+      <Item value="GetMoviesOwnedByUser`0" priority="26" />
+      <Item value="GetAllReachable`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="ToList`1" priority="161" />
+      <Item value="Where`1" priority="107" />
+      <Item value="FirstOrDefault`1" priority="26" />
+      <Item value="SelectMany`2" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.WebApp.Models.ViewModels.SearchViewModel">
+      <Item value="BuildFilter`0" priority="26" />
+      <Item value="GetType`0" priority="53" />
+      <Item value="Director" priority="53" />
+      <Item value="Genre" priority="53" />
+      <Item value="Title" priority="26" />
+      <Item value="Year" priority="26" />
+      <Item value="SearchResults" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.RepImpl.EFGroupsRepository">
+      <Item value="DbContext" priority="53" />
+      <Item value="GetAll`0" priority="26" />
+      <Item value="Get`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.DomainModel.User">
+      <Item value="UserName" priority="352" />
+      <Item value="UserId" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.DbContext">
+      <Item value="Entry`1" priority="26" />
+      <Item value="Set`1" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.Infrastructure.DbEntityEntry`1">
+      <Item value="State" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.DomainModel.ServicesImpl.RepositoryGroupsService">
+      <Item value="_groupsRepository" priority="215" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.DomainModel.ServicesRepositoryInterfaces.IGroupsRepository">
+      <Item value="GetAll`0" priority="26" />
+      <Item value="GetOwnedGroupsByUser`0" priority="26" />
+      <Item value="GetEnrolledGroupsByUser`0" priority="26" />
+      <Item value="Get`0" priority="26" />
+      <Item value="Add`0" priority="26" />
+      <Item value="Save`0" priority="26" />
+      <Item value="GetAllUsers`0" priority="26" />
+      <Item value="GetUserInfo`0" priority="26" />
+      <Item value="GetAllUsersExceptCurrentUser`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.WebApp.Models.ViewModels.GroupsIndexViewModel">
+      <Item value="OwnedGroups" priority="80" />
+      <Item value="EnrolledGroups" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IPrincipal">
+      <Item value="Identity" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IIdentity">
+      <Item value="Name" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.WebApp.Controllers.GroupsController">
+      <Item value="_groupsService" priority="323" />
+      <Item value="TryUpdateModel`1" priority="26" />
+      <Item value="_moviesService" priority="53" />
+      <Item value="DeletePost`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.DomainModel.Services.IGroupsService">
+      <Item value="GetOwnedGroupsByUser`0" priority="26" />
+      <Item value="GetEnrolledGroupsByUser`0" priority="26" />
+      <Item value="Get`0" priority="80" />
+      <Item value="GetAllUsers`0" priority="26" />
+      <Item value="GetUserInfo`0" priority="53" />
+      <Item value="Update`0" priority="26" />
+      <Item value="GetAllUsersExceptCurrentUser`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="HtmlCodeCompletionContext">
+      <Item value="table" priority="13" />
+      <Item value="th" priority="5" />
+      <Item value="tr" priority="5" />
+      <Item value="p" priority="6" />
+      <Item value="br" priority="6" />
+      <Item value="li" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Security.Membership">
+      <Item value="CreateUser`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.RepImpl.EFIMDBAPIMoviesRepository">
+      <Item value="GetAll`0" priority="53" />
+      <Item value="DbContext" priority="53" />
+      <Item value="GetMoviesCreatedByUser`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="RazorTransitionCompletionContext">
+      <Item value="item" priority="7" />
+      <Item value="if" priority="7" />
+      <Item value="Html" priority="23" />
+      <Item value="model" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.WebApp.Models.ViewModels.UsersDetailsViewModel">
+      <Item value="AddUsersButton" priority="26" />
+      <Item value="DeleteUsersButton" priority="26" />
+      <Item value="DeleteEnrolledUsers" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.DbSet`1">
+      <Item value="ToList`1" priority="27" />
+      <Item value="Where`1" priority="82" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.FormMethod">
+      <Item value="Post" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Guid">
+      <Item value="ToString`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="Hidden`0" priority="26" />
+      <Item value="LabelFor`2" priority="26" />
+      <Item value="Label`0" priority="26" />
+      <Item value="ActionLink`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.WebApp.Models.ViewModels.MoviesDetailsViewModel">
+      <Item value="AddMoviesButton" priority="26" />
+      <Item value="DeleteMoviesButton" priority="26" />
+      <Item value="DeleteSharedMovies" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.DomainModel.Entities.Group">
+      <Item value="SharedMovies" priority="53" />
+      <Item value="EnrolledUsers" priority="53" />
+      <Item value="Name" priority="136" />
+      <Item value="Description" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.WebApp.Models.ViewModels.SearchSortPagingViewModel">
+      <Item value="SortAndPagingModel" priority="80" />
+      <Item value="SearchModel" priority="107" />
+      <Item value="SortColumn" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.Tests.Controllers.GroupsControllerTests">
+      <Item value="_inMemoryGroupsService" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="GetProperties`0" priority="53" />
+      <Item value="IsValueType" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.BindingFlags">
+      <Item value="Public" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.PropertyInfo">
+      <Item value="PropertyType" priority="26" />
+      <Item value="Name" priority="53" />
+      <Item value="GetValue`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.WebApp.Models.ViewModels.SortPagingViewModel">
+      <Item value="SortingCriteria" priority="26" />
+      <Item value="Page" priority="26" />
+      <Item value="PageSize" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.Tests.Controllers.MoviesControllerTests">
+      <Item value="_inMemoryGroupsService" priority="26" />
+      <Item value="_inMemoryMoviesService" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mod03_ChelasMovies.Rep.Helpers.Collections.IPagedList`1">
+      <Item value="Count" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

@@ -1,0 +1,40 @@
+﻿@model Group
+
+@{
+    ViewBag.Title = "Add Movies";
+}
+
+<fieldset>
+    <legend>Movies</legend>
+
+    @using (Html.BeginForm("AddMovies", "Groups", new { id = Model.ID }, FormMethod.Post))
+    {
+        if (ViewBag.MoviesNotShared != null)
+        {
+            <table>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>Title</th>
+                </tr>
+
+                @foreach (var item in ViewBag.MoviesNotShared)
+                {
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="addMovies" value="@item.ID" />
+                        </td>
+                        <td>
+                            @item.Title
+                        </td>
+                    </tr>
+                }
+            </table>
+        }
+        <br />
+        <input name="AddMoviesButton" type="submit" value="Add" />
+    }
+</fieldset>
+
+<p>
+    @Html.ActionLink("Back to Details", "Details", new { id = Model.ID })
+</p>

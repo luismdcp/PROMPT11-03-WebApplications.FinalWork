@@ -1,0 +1,22 @@
+﻿@model Group
+
+@{
+    ViewBag.Title = "Edit Group";
+}
+
+<h2>Edit Group</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Comment</legend>
+
+       @Html.Partial("_CreateOrEdit", Model)
+
+        <p><input type="submit" value="Save" /></p>
+    </fieldset>
+}
+
+<div>@Html.ActionLink("Back to List", "Index", "Groups")</div>

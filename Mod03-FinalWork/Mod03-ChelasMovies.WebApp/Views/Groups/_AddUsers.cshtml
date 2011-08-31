@@ -1,0 +1,40 @@
+﻿@model Group
+
+@{
+    ViewBag.Title = "Add Users";
+}
+
+<fieldset>
+    <legend>Users</legend>
+
+    @using (Html.BeginForm("AddUsers", "Groups", new { id = Model.ID }, FormMethod.Post))
+    {
+        if (ViewBag.UsersNotEnrolled != null)
+        {
+            <table>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>Name</th>
+                </tr>
+
+                @foreach (var item in ViewBag.UsersNotEnrolled)
+                {
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="addUsers" value="@item.UserName" />
+                        </td>
+                        <td>
+                            @item.UserName
+                        </td>
+                    </tr>
+                }
+            </table>
+        }
+        <br />
+        <input name="AddUsersButton" type="submit" value="Add" />
+    }
+</fieldset>
+
+<p>
+    @Html.ActionLink("Back to Details", "Details", new { id = Model.ID })
+</p>

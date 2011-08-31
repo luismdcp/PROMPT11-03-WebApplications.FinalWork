@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Mod03_ChelasMovies.DomainModel.Entities.Comment">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgkAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Comment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Movie" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mod03_ChelasMovies.DomainModel.Entities.User">
+    <Position X="2" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAQAAAAgAAAQEAABAAQAAAAAAAAA=</HashCode>
+      <FileName>Entities\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mod03_ChelasMovies.DomainModel.Entities.Group">
+    <Position X="2" Y="4.5" Width="1.75" />
+    <AssociationLine Name="EnrolledUsers" Type="Mod03_ChelasMovies.DomainModel.Entities.User" FixedToPoint="true">
+      <Path>
+        <Point X="3.375" Y="4.5" />
+        <Point X="3.375" Y="2.757" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.171" Y="0.185" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAACIAAAggUAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Group.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Owner" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="SharedMovies" />
+      <Property Name="EnrolledUsers" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Mod03_ChelasMovies.DomainModel.Entities.Movie">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABCIBAAAgEAAiAIAAAAAAAAAAJAAAAAAIAAAIAA=</HashCode>
+      <FileName>Entities\Movie.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Owner" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="EnrolledGroups" />
+      <Property Name="Comments" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

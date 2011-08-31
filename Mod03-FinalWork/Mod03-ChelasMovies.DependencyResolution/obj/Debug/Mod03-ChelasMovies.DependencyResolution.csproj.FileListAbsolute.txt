@@ -1,0 +1,17 @@
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DependencyResolution\bin\Debug\Mod03-ChelasMovies.DependencyResolution.dll
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DependencyResolution\bin\Debug\Mod03-ChelasMovies.DependencyResolution.pdb
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DependencyResolution\bin\Debug\EntityFramework.dll
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DependencyResolution\bin\Debug\Mod03-ChelasMovies.DomainModel.dll
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DependencyResolution\bin\Debug\Mod03-ChelasMovies.Rep.dll
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DependencyResolution\bin\Debug\Mod03-ChelasMovies.RepImpl.dll
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DependencyResolution\bin\Debug\StructureMap.dll
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DependencyResolution\bin\Debug\Dynamic.dll
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DependencyResolution\bin\Debug\Mod03-ChelasMovies.DomainModel.pdb
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DependencyResolution\bin\Debug\Mod03-ChelasMovies.RepImpl.pdb
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DependencyResolution\bin\Debug\Mod03-ChelasMovies.Rep.pdb
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DependencyResolution\bin\Debug\EntityFramework.xml
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DependencyResolution\bin\Debug\StructureMap.pdb
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DependencyResolution\bin\Debug\StructureMap.xml
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DependencyResolution\obj\Debug\ResolveAssemblyReference.cache
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DependencyResolution\obj\Debug\Mod03-ChelasMovies.DependencyResolution.dll
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DependencyResolution\obj\Debug\Mod03-ChelasMovies.DependencyResolution.pdb

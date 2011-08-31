@@ -1,0 +1,8 @@
+﻿@model String
+@using Mod03_ChelasMovies.WebApp.Helpers
+
+@Html.SortingHeader(Model)
+&nbsp;
+@Html.ImageLink(Url.Content("~/Content/Images/ascSort_13_7.gif"), new { Order = "Ascending", SortingCriteria = Model })
+&nbsp;
+@Html.ImageLink(Url.Content("~/Content/Images/descSort_13_7.gif"), new { Order = "Descending", SortingCriteria = Model })

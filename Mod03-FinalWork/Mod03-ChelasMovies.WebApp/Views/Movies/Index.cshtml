@@ -1,0 +1,97 @@
+﻿@model SearchSortPagingViewModel
+@using Mod03_ChelasMovies.WebApp.Helpers
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Movies List</h2>
+
+@using (Html.BeginForm("Index", "Movies", FormMethod.Get))
+{
+    <fieldset>
+        <legend>Movie Search</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SearchModel.Title)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.SearchModel.Title)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SearchModel.Year)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.SearchModel.Year)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SearchModel.Genre)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.SearchModel.Genre)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SearchModel.Director)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.SearchModel.Director)
+        </div>
+        <p>
+            <input name="SearchButton" type="submit" value="Search" />
+        </p>
+    </fieldset>
+}
+
+<p>@Html.ActionLink("Create New", "Create")</p>
+
+@if (Model.SearchModel.SearchResults != null)
+{
+   <table>
+    <tr>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+        <th>
+            @Html.Partial("_SortingHeader", "Title")
+        </th>
+        <th>
+            @Html.Partial("_SortingHeader", "Year")
+        </th>
+        <th>
+            @Html.Partial("_SortingHeader", "Genre")
+        </th>
+        <th>
+            @Html.Partial("_SortingHeader", "Director")
+        </th>
+        <th>
+            @Html.Partial("_SortingHeader", "Actors")
+        </th>
+        <th>Image</th>
+        <th>Runtime</th>
+    </tr>
+
+@foreach (var item in Model.SearchModel.SearchResults)
+{
+    <tr>
+        <td>@Html.ActionLink("Details", "Details", new { id = item.ID })</td>
+        <td>@Html.ActionLink("Edit", "Edit", new { id = item.ID })</td>
+        <td>@Html.ActionLink("Delete", "Delete", new { id = item.ID })</td>
+        <td>@item.Title</td>
+        <td>@item.Year</td>
+        <td>@item.Genre</td>
+        <td>@item.Director</td>
+        <td>@item.Actors</td>
+        <td>
+            <div class="display-list-img">@Html.Image(Url.Content(item.Image))</div>
+        </td>
+        <td>@item.Runtime</td>
+    </tr>
+}
+
+</table>
+    <br />
+    @Html.Partial("_Pager", Model)
+}

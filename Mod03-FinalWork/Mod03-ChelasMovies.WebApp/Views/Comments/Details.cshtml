@@ -1,0 +1,24 @@
+﻿@model Comment
+
+@{
+    ViewBag.Title = "Details Comment";
+}
+
+<h2>Details Comment</h2>
+
+<fieldset>
+    <legend>Comment</legend>
+
+    <div class="display-label">Description</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Description)
+    </div>
+
+    <div class="display-label">Rating</div>
+    <div class="display-field">
+        @((Rating) Model.Rating)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { Id = Model.ID }) | @Html.ActionLink("Back to List", "Details", "Movies", new { id = Model.MovieID }, null)
+</p>

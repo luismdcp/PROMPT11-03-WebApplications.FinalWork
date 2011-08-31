@@ -1,0 +1,10 @@
+﻿@model NotFoundViewModel
+
+@{
+    ViewBag.Title = "Not Found";
+}
+
+<h2>@Model.Entity Not Found</h2>
+<p>Sorry - but the @Model.Entity you requested with id '@Model.Id' doesn’t exist or was deleted.</p>
+
+@Html.ActionLink("Back to Movies List", "Index", "Movies")

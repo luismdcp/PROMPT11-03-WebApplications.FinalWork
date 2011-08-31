@@ -1,0 +1,53 @@
+﻿@model SearchSortPagingViewModel
+
+<div>
+    Page @(Model.SortAndPagingModel.SearchResults.TotalPages == 0 ? 0 : Model.SortAndPagingModel.SearchResults.PageIndex + 1) of @Model.SortAndPagingModel.SearchResults.TotalPages page(s)
+    
+    @if (Model.SortAndPagingModel.SearchResults.HasPreviousPage)
+    {
+        @Html.RouteLink("|<", new { Page = 0, Order = Model.SortAndPagingModel.Order, 
+                                    SortingCriteria = Model.SortAndPagingModel.SortingCriteria,
+                                    Title = Model.SearchModel.Title,
+                                    Year = Model.SearchModel.Year,
+                                    Genre = Model.SearchModel.Genre,
+                                    Director = Model.SearchModel.Director
+                                   })
+    }
+    
+    @if (Model.SortAndPagingModel.SearchResults.PageIndex > 0)
+    {
+        @Html.RouteLink("< Prev", new { Page = Model.SortAndPagingModel.SearchResults.PageIndex - 1, 
+                                        Order = Model.SortAndPagingModel.Order, 
+                                        SortingCriteria = Model.SortAndPagingModel.SortingCriteria, 
+                                        Title = Model.SearchModel.Title,
+                                        Year = Model.SearchModel.Year,
+                                        Genre = Model.SearchModel.Genre,
+                                        Director = Model.SearchModel.Director 
+                                      })
+    }
+    &nbsp;
+    &nbsp;
+    @if (Model.SortAndPagingModel.SearchResults.HasNextPage)
+    {
+        @Html.RouteLink("Next >", new { Page = Model.SortAndPagingModel.SearchResults.PageIndex + 1, 
+                                        Order = Model.SortAndPagingModel.Order, 
+                                        SortingCriteria = Model.SortAndPagingModel.SortingCriteria, 
+                                        Title = Model.SearchModel.Title,
+                                        Year = Model.SearchModel.Year,
+                                        Genre = Model.SearchModel.Genre,
+                                        Director = Model.SearchModel.Director 
+                                      })
+    }
+        
+    @if (Model.SortAndPagingModel.SearchResults.PageIndex < Model.SortAndPagingModel.SearchResults.TotalPages - 1)
+    {
+        @Html.RouteLink(">|", new { Page = Model.SortAndPagingModel.SearchResults.TotalPages - 1, 
+                                    Order = Model.SortAndPagingModel.Order, 
+                                    SortingCriteria = Model.SortAndPagingModel.SortingCriteria, 
+                                    Title = Model.SearchModel.Title,
+                                    Year = Model.SearchModel.Year,
+                                    Genre = Model.SearchModel.Genre,
+                                    Director = Model.SearchModel.Director 
+                                  })
+    }
+</div>

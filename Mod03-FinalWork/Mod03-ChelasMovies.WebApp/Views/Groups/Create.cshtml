@@ -1,0 +1,23 @@
+﻿@model Group
+
+@{
+    ViewBag.Title = "Create Group";
+}
+
+<h2>Create Group</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>Group</legend>
+
+        @Html.Partial("_CreateOrEdit", Model)
+        
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>@Html.ActionLink("Back to List", "Index", "Groups")</div>

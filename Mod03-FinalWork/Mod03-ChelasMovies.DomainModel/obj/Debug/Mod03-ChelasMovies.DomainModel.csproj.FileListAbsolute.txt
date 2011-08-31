@@ -1,0 +1,10 @@
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DomainModel\bin\Debug\Mod03-ChelasMovies.DomainModel.dll
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DomainModel\bin\Debug\Mod03-ChelasMovies.DomainModel.pdb
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DomainModel\bin\Debug\EntityFramework.dll
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DomainModel\bin\Debug\Mod03-ChelasMovies.Rep.dll
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DomainModel\bin\Debug\Dynamic.dll
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DomainModel\bin\Debug\Mod03-ChelasMovies.Rep.pdb
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DomainModel\bin\Debug\EntityFramework.xml
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DomainModel\obj\Debug\ResolveAssemblyReference.cache
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DomainModel\obj\Debug\Mod03-ChelasMovies.DomainModel.dll
+D:\Development\Projects\PROMPT\Mod03-FinalWork\Mod03-ChelasMovies.DomainModel\obj\Debug\Mod03-ChelasMovies.DomainModel.pdb
